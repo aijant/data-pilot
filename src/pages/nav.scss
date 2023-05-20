@@ -1,0 +1,43 @@
+.nav-logo {
+  margin: 50px 0;
+  img {
+    cursor: pointer;
+  }
+}
+
+.nav-menu-button {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 30px 4vw 0 4vw;
+  cursor: pointer;
+}
+
+.nav-menu {
+  // pointer-events: none;
+  position: fixed;
+  top: 52px;
+  right: 4vw;
+  background: white;
+  width: 600px;
+  padding: 50px 40px;
+  list-style: none;
+
+  img {
+    margin: auto;
+    display: block;
+    user-select: none;
+  }
+
+  li {
+    color: #3B3C3E;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 106%;
+    margin: 35px 0;
+    cursor: pointer;
+    user-select: none;
+  }
+}

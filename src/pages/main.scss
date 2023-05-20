@@ -3,7 +3,6 @@
 .main {
   display: flex;
   align-items: center;
-      margin: 0 200px;
 
   .module {
     flex: 1;
@@ -16,6 +15,7 @@
       text-align: left;
       color: $primary-color;
       margin-bottom: 90px;
+      line-height: 78px;
     }
 
     button {
@@ -41,6 +41,7 @@
     img {
       height: 504px;
       width: 801px;
+      z-index: 1;
     }
   }
 }

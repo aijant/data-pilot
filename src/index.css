@@ -16,3 +16,14 @@ h1,h2,h3,p {
   margin: 0;
   padding: 0;
 }
+
+.main-background {
+  background-image: url(./assets/images/back.svg);
+  overflow: hidden;
+}
+
+.main-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
