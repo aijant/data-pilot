@@ -5,6 +5,7 @@ import Technical from "./pages/technical";
 import Scenarios from "./pages/scenarios"
 import { Lines } from './components/lines';
 import { Nav } from './pages/nav';
+import Buy from "./pages/buy";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Module />
         <Technical />
         <Scenarios />
+        <Buy />
       </div>
     </div>
   )

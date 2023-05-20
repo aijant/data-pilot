@@ -1,0 +1,26 @@
+@import "../assets/index.scss";
+
+.buy {
+  .ttl {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 98px;
+    color: $primary-color;
+    text-align: center;
+    margin: 324px 0 14px;
+  }
+
+  p {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 39px;
+    color: #737373;
+    text-align: center;
+  }
+
+  form {
+    
+  }
+}
