@@ -4,8 +4,22 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
-  margin: 73px 0 30px;
+  margin: 73px 0 0;
+  padding-bottom: 30px;
   position: relative;
+
+  &::after {
+    content: '';
+    display: block;
+    left: -1000px;
+    right: -1000px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    box-shadow: 0 0 12px rgba(0,0,0, .15);
+  }
+
+  
 
   p {
     font-family: "Montserrat";
