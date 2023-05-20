@@ -26,8 +26,8 @@
 
     input,
     button {
-      width: 530px;
-      padding: 20px 0;
+      width: 464px;
+      padding: 20px 30px;
       border: 1px solid #ab49ad;
       outline: none;
       margin-bottom: 18px;
@@ -36,15 +36,16 @@
     }
 
     ::placeholder {
-      padding-left: 32px;
+      padding-left: 2px;
     }
   }
 
   button {
+     width: 530px !important;
     font-size: 20px;
     line-height: 24px;
     font-weight: bold;
-     box-shadow: none !important;
+    box-shadow: none !important;
     border: none !important;
     color: #fff;
     text-transform: uppercase;
