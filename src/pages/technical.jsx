@@ -3,7 +3,7 @@ import square from '../assets/images/sw-4.svg'
 
 function Technical() {
     return (
-        <div className="technical">
+        <div id='section_3' className="technical">
             <h1 className='ttl'>Технические преимущества МНП</h1>
 
             <div className='block'>

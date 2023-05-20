@@ -12,16 +12,26 @@
   }
 
   .block {
-    background-color: #fff;
-
+    &::after {
+      content: '';
+      display: block;
+      left: -1000px;
+      right: -1000px;
+      top: 0;
+      bottom: 0;
+      position: absolute;
+      background-color: white;
+    }
+    position: relative;
     ul {
+      position: relative;
+      z-index: 2;
       display: grid;
       grid-template-columns: 1fr 1fr;
       text-align-last: left;
       gap: 32px;
       list-style-type: none;
       padding: 64px 0 88px;
-      margin: 0 176px;
       
       li {
         display: flex;

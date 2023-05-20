@@ -2,7 +2,7 @@ import './buy.scss'
 
 function Buy() {
     return (
-        <div className="buy">
+        <div id='section_5' className="buy">
             <h1 className='ttl'>Покупка DataPilot</h1>
             <p>Пожалуйста, введите свой адрес электронной почты,<br /> мы вышлем письмо с новым паролем:</p>
             

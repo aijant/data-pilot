@@ -2,7 +2,7 @@ import "./scenarios.scss";
 
 function Scenarios() {
   return (
-    <div className="scenarios">
+    <div id="section_4" className="scenarios">
       <h1 className="ttl">Сценарии использования: </h1>
 
       <div className="option-content">
