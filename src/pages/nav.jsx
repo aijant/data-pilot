@@ -4,7 +4,7 @@ import menu from '../assets/images/menu.svg'
 import './nav.scss'
 
 export const Nav = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
 
   return (
     <>

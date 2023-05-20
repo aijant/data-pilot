@@ -1,0 +1,44 @@
+@import "../assets/index.scss";
+
+.scenarios {
+  .ttl {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: $primary-color;
+    text-align: center;
+    margin: 346px 0 106px;
+  }
+
+  .option-content {
+    display: flex;
+    gap: 44px;
+    margin: 0 90px;
+
+    div {
+      background-color: rgb(223, 241, 223);
+      border-radius: 20px;
+      padding: 29px 21px 29px 34px;
+      height: auto;
+      width: 520px;
+
+      h3 {
+        font-family: "Montserrat";
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        color: $accent-color;
+        margin-bottom: 12px;
+      }
+
+      p {
+        font-family: "Montserrat";
+        font-size: 18px;
+        line-height: 24px;
+        color: $primary-color;
+        padding: 5px 0;
+      }
+    }
+  }
+}
