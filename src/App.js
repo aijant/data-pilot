@@ -1,9 +1,12 @@
+import Main from './pages/main'
+import Benefits from './pages/benefits'
 
 function App() {
   return (
-    <div>
-     <h1>Hello!!</h1>
-    </div>
+    <>
+      <Main />
+      <Benefits/>
+    </>
   );
 }
 

@@ -1,0 +1,46 @@
+@import "../assets/index.scss";
+
+.main {
+  display: flex;
+  align-items: center;
+      margin: 0 200px;
+
+  .module {
+    flex: 1;
+    margin-right: 57px;
+
+    .ttl {
+      font-family: "Montserrat";
+      font-weight: bold;
+      font-size: 64px;
+      text-align: left;
+      color: $primary-color;
+      margin-bottom: 90px;
+    }
+
+    button {
+      font-family: "Montserrat";
+      font-weight: 700;
+      font-size: 20px;
+      color: #fff;
+      padding: 16px 136px;
+      outline: none;
+      border: none;
+      background: linear-gradient(
+        129.04deg,
+        #fdab2f 8.28%,
+        rgba(255, 98, 154, 0.94) 51.96%,
+        #7c0deb 99.16%
+      );
+      border-radius: 100px;
+    }
+  }
+
+  .macbook {
+    flex: 2;
+    img {
+      height: 504px;
+      width: 801px;
+    }
+  }
+}

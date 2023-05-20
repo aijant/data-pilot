@@ -1,5 +1,5 @@
-# Getting Started with Create React App
-Data Pilot
+# DataPilot
+Преимущества использования DataPilot c КриптоПро
 
 ## Available Scripts
 
