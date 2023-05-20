@@ -1,0 +1,35 @@
+@import "../assets/index.scss";
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 73px 0 30px;
+  position: relative;
+
+  p {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 18px;
+    color: $primary-color;
+    line-height: 28px;
+    margin-top: 37px;
+  }
+
+  img {
+    margin-top: 54px;
+  }
+
+  .line {
+    position: absolute;
+    background-color: #ab49ad;
+    width: 116px;
+    height: 1px;
+    transform: rotate(90deg);
+    right: 48px;
+    left: 0;
+    top: 36px;
+    bottom: 0;
+    margin: auto;
+  }
+}

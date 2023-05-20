@@ -6,6 +6,7 @@ import Scenarios from "./pages/scenarios"
 import { Lines } from './components/lines';
 import { Nav } from './pages/nav';
 import Buy from "./pages/buy";
+import Footer from './pages/footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Technical />
         <Scenarios />
         <Buy />
+        <Footer/>
       </div>
     </div>
   )

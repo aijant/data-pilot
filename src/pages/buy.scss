@@ -18,9 +18,49 @@
     line-height: 39px;
     color: #737373;
     text-align: center;
+    margin-bottom: 36px;
   }
 
   form {
+    text-align: center;
+
+    input,
+    button {
+      width: 530px;
+      padding: 20px 0;
+      border: 1px solid #ab49ad;
+      outline: none;
+      margin-bottom: 18px;
+      border-radius: 100px;
+      box-shadow: 1px 1px 1px 1px #ab49ad3b;
+    }
+
+    ::placeholder {
+      padding-left: 32px;
+    }
+  }
+
+  button {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+     box-shadow: none !important;
+    border: none !important;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .buy {
+    background: linear-gradient(
+      129.04deg,
+      #fdab2f 8.28%,
+      rgba(255, 98, 154, 0.94) 51.96%,
+      #7c0deb 99.16%
+    );
     
+  }
+
+  .cancel {
+    background-color: #737373;
   }
 }
