@@ -1,0 +1,51 @@
+@import "../assets/index.scss";
+
+.module {
+  h1 {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 74px;
+    color: $primary-color;
+    text-align: center;
+    margin: 271px 0 154px;
+  }
+
+  ul {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align-last: left;
+    gap: 13px;
+    list-style-type: none;
+    margin: 0 106px;
+
+    .line {
+      position: absolute;
+      background-color: $accent-color;
+      width: 345px;
+      height: 1px;
+      transform: rotate(90deg);
+      right: 80px;
+      left: 0;
+      top: 36px;
+      bottom: 0;
+      margin: auto;
+    }
+
+    li {
+      display: flex;
+      gap: 23px;
+      text-align: left;
+      font-size: 24px;
+      line-height: 32px;
+      color: $secondary-color;
+
+      img {
+        width: 16px;
+        height: 9px;
+        margin-top: 12px;
+      }
+    }
+  }
+}
