@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 60px;
-  margin: 73px 0 0;
+  margin: 41px 0 0;
   padding-bottom: 30px;
   position: relative;
 
@@ -19,11 +19,8 @@
     box-shadow: 0 0 12px rgba(0,0,0, .15);
   }
 
-  
-
   p {
     font-family: "Montserrat";
-    font-weight: bold;
     font-size: 18px;
     color: $primary-color;
     line-height: 28px;
@@ -42,7 +39,7 @@
     transform: rotate(90deg);
     right: 48px;
     left: 0;
-    top: 36px;
+    top: 8px;
     bottom: 0;
     margin: auto;
   }

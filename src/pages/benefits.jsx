@@ -8,7 +8,7 @@ function Benefits() {
     return (
         <div id='section_1' className="benefits">
             <h1 className='ttl'>Преимущества использования DataPilot c КриптоПро</h1>
-            <p className='sub-content'>При работе ЭЦП с помощью КриптоПро использование DataPilot позволяет эффективно решать<br /> следующие задачи:</p>
+            <p className='sub-content'>При работе ЭЦП с помощью КриптоПро использование DataPilot позволяет эффективно решать следующие задачи:</p>
             
             <ul>
                 <li><img src={first} />Необходимость отслеживать актуальность ключей ЭЦП;</li>

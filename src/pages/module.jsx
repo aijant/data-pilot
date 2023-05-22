@@ -4,7 +4,7 @@ import square from '../assets/images/square.svg'
 function Module() {
     return (
         <div id='section_2' className="module">
-            <h1>Модуль наложения полностью решает эти<br /> задачи за счет:</h1>
+            <h1>Модуль наложения полностью решает эти задачи за счет:</h1>
             
             <ul>
                 <div className='line'></div>

@@ -2,9 +2,8 @@
 
 .main {
   display: flex;
-  align-items: center;
 
-  .module {
+  .top-module {
     flex: 1;
     margin-right: 57px;
 
@@ -12,18 +11,18 @@
       font-family: "Montserrat";
       font-weight: bold;
       font-size: 64px;
-      text-align: left;
       color: $primary-color;
-      margin-bottom: 90px;
+      margin: 6vw 0;
       line-height: 78px;
     }
 
     button {
       font-family: "Montserrat";
+      width: 100%;
       font-weight: 700;
       font-size: 20px;
       color: #fff;
-      padding: 16px 136px;
+      padding: 16px 0;
       outline: none;
       border: none;
       background: linear-gradient(
@@ -38,7 +37,6 @@
 
   .macbook {
     img {
-      height: 504px;
       width: 801px;
       z-index: 1;
     }

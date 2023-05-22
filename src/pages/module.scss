@@ -8,7 +8,7 @@
     line-height: 74px;
     color: $primary-color;
     text-align: center;
-    margin: 271px 0 154px;
+    margin: 42vh 0 23vh;
   }
 
   ul {
@@ -16,13 +16,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align-last: left;
-    gap: 13px;
+    gap: 23px;
     list-style-type: none;
 
     .line {
       position: absolute;
       background-color: $accent-color;
-      width: 345px;
+      width: 324px;
       height: 1px;
       transform: rotate(90deg);
       right: 80px;
@@ -34,7 +34,7 @@
 
     li {
       display: flex;
-      gap: 23px;
+      gap: 13px;
       text-align: left;
       font-size: 24px;
       line-height: 32px;
