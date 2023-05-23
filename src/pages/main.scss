@@ -37,8 +37,11 @@
 
   .macbook {
     img {
-      width: 801px;
       z-index: 1;
+
+      @media (max-width: 1650px) {
+        width: 801px;
+      }
     }
   }
 }
