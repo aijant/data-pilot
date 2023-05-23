@@ -20,11 +20,12 @@ h1,h2,h3,p {
 .main-background {
   background-image: url(./assets/images/back.svg);
   overflow: hidden;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: cover;
 }
 
 .main-container {
   max-width: 1300px;
-  margin: 0 60px;
-  position: relative;
-  
+  margin: 0 auto;
 }
