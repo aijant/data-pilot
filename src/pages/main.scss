@@ -38,9 +38,32 @@
   .macbook {
     img {
       z-index: 1;
+    }
 
-      @media (max-width: 1650px) {
-        width: 801px;
+    @media screen and (max-width: $phone) {
+      position: absolute;
+      top: 210px;
+      left: 50%;
+      img {
+        width: 500px;
+      }
+    }
+  }
+
+  @media screen and (max-width: $phone) {
+    display: block;
+    .top-module {
+      margin: 0;
+      .ttl {
+        margin: 200px 0 100px 20px;
+        font-size: 40px;
+        line-height: 50px;
+      }
+
+      button {
+        width: 300px;
+        margin: 0 auto;
+        display: block;
       }
     }
   }
