@@ -40,6 +40,12 @@
       z-index: 1;
     }
 
+    @media screen and (max-width: $maxLaptop) {
+      img {
+        width: 800px;
+      }
+    }
+
     @media screen and (max-width: $phone) {
       position: absolute;
       top: 210px;

@@ -41,6 +41,11 @@
   position: absolute;
   z-index: -4;
   width: 1920px;
+  @media (max-width: $phone) {
+    left: 0;
+    top: -400px;
+    width: 1000px;
+  }
 }
 
 .line5 {
@@ -50,4 +55,8 @@
   position: absolute;
   z-index: -5;
   width: 1920px;
+  @media (max-width: $phone) {
+    left: 0;
+    width: 1000px;
+  }
 }

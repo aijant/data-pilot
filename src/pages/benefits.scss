@@ -73,4 +73,38 @@
       color: $accent-color;
     }
   }
+
+  @media screen and (max-width: $phone) {
+    margin-top: 140px;
+
+    .ttl {
+      font-size: 30px;
+      line-height: 43px;
+      padding: 0 10px;
+    }
+
+    .sub-content {
+      font-size: 17px;
+    }
+
+    ul {
+      gap: 0;
+      padding: 010px;
+      li {
+        font-size: 14px;
+      }
+    }
+
+    .content {
+      font-size: 14px;
+    }
+
+    .wt-content {
+      padding: 0;
+      p {
+        font-size: 20px;
+        line-height: 28px;
+      }
+    }
+  }
 }
