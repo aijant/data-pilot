@@ -13,7 +13,7 @@
 
   .block {
     &::after {
-      content: '';
+      content: "";
       display: block;
       left: -1000px;
       right: -1000px;
@@ -31,8 +31,12 @@
       text-align-last: left;
       gap: 32px;
       list-style-type: none;
-      padding: 64px 0 88px;
-      
+      padding: 64px 34px 88px;
+
+      @media screen and (max-width: 800px) {
+        grid-template-columns: 1fr;
+      }
+
       li {
         display: flex;
         gap: 18px;
@@ -60,17 +64,16 @@
 
     .block {
       ul {
-        gap: 0;
-        padding: 0 10px;
+        gap: 14px;
         margin-top: 80px;
+        padding: 64px 14px 88px;
         li {
           font-size: 15px;
-          line-height: 25px;
+          line-height: 20px;
           margin-bottom: 15px;
+          gap: 14px;
         }
       }
     }
-
-   
   }
 }

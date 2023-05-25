@@ -30,6 +30,12 @@
       top: 36px;
       bottom: 0;
       margin: auto;
+
+      @media screen and (max-width: 800px) {
+        width: 500px;
+        right: 0;
+        left: 28px;
+      }
     }
 
     li {
@@ -48,10 +54,10 @@
     }
   }
   @media screen and (max-width: $phone) {
-    margin: 120px 0 0 0;
+    margin: 64px 0 0 0;
     h1 {
       font-size: 35px;
-      line-height: 55px;
+      line-height: 47px;
       margin: 0 10px;
     }
     ul {
@@ -60,15 +66,27 @@
       margin-top: 80px;
       li {
         font-size: 15px;
-        line-height: 25px;
+        line-height: 20px;
         margin-bottom: 15px;
+
+        img {
+          width: 10px;
+          height: 6px;
+          margin-top: 7px;
+        }
       }
       .line {
-        right: 25px;
+        right: 42px;
         top: 0;
         bottom: 0;
-        width: 400px
+        width: 314px;
       }
     }
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .line {
+    display: none;
   }
 }
