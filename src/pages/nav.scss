@@ -84,10 +84,10 @@
     }
     li {
       font-size: 25px;
+      margin: 36px;
 
       @media screen and (max-width: 385px) {
         font-size: 16px;
-        margin: 36px;
       }
     }
   }
