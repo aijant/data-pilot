@@ -9,14 +9,14 @@
   position: relative;
 
   &::after {
-    content: '';
+    content: "";
     display: block;
     left: -1000px;
     right: -1000px;
     top: 15px;
     bottom: 0;
     position: absolute;
-    box-shadow: 0 0 12px rgba(0,0,0, .15);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   }
 
   p {
@@ -42,12 +42,22 @@
     top: 8px;
     bottom: 0;
     margin: auto;
+
+     @media screen and (max-width: 685px) {
+          right: 0;
+        }
+
   }
 
   @media screen and (max-width: $phone) {
     padding: 0;
     justify-content: center;
     padding: 30px 0;
+
+    @media screen and (max-width: 385px) {
+      gap: 16px;
+    }
+
     img {
       width: 180px;
       padding-left: 20px;

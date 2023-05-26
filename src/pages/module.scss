@@ -31,9 +31,15 @@
       bottom: 0;
       margin: auto;
 
+       @media screen and (max-width: 960px) {
+        width: 456px;
+        right: -7px;
+        left: 28px;
+      }
+
       @media screen and (max-width: 800px) {
         width: 500px;
-        right: 0;
+        right: 7px;
         left: 28px;
       }
     }

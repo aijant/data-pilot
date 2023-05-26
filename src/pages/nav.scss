@@ -20,7 +20,6 @@
   padding: 30px 4vw 0 4vw;
   cursor: pointer;
 
- 
   @media (max-width: $phone) {
     margin: 55px 8vw 0 8vw;
     position: absolute;
@@ -48,7 +47,7 @@
     position: absolute;
     right: 20px;
     top: 20px;
-    fill: #3B3C3E;
+    fill: #3b3c3e;
   }
 
   img {
@@ -58,8 +57,8 @@
   }
 
   li {
-    color: #3B3C3E;
-    font-family: 'Montserrat';
+    color: #3b3c3e;
+    font-family: "Montserrat";
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
@@ -85,6 +84,11 @@
     }
     li {
       font-size: 25px;
+
+      @media screen and (max-width: 385px) {
+        font-size: 16px;
+        margin: 36px;
+      }
     }
   }
 }

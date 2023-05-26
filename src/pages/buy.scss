@@ -44,7 +44,7 @@
   }
 
   button {
-     width: 530px !important;
+    width: 530px !important;
     font-size: 20px;
     line-height: 24px;
     font-weight: bold;
@@ -61,7 +61,6 @@
       rgba(255, 98, 154, 0.94) 51.96%,
       #7c0deb 99.16%
     );
-    
   }
 
   .cancel {
@@ -83,12 +82,22 @@
     form {
       input {
         width: 300px;
+
+        @media screen and (max-width: 385px) {
+          width: 264px;
+        }
       }
       .buy {
-        width: 360px!important;
+        width: 360px !important;
+        @media screen and (max-width: 385px) {
+          width: 324px !important;
+        }
       }
       .cancel {
-        width: 360px!important;
+        width: 360px !important;
+        @media screen and (max-width: 385px) {
+          width: 324px !important;
+        }
       }
     }
   }
