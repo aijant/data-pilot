@@ -8,7 +8,7 @@
     line-height: 98px;
     color: $primary-color;
     text-align: center;
-    margin: 324px 0 14px;
+    margin: 324px 0 30px;
   }
 
   p {
@@ -18,7 +18,7 @@
     line-height: 39px;
     color: #737373;
     text-align: center;
-    margin-bottom: 36px;
+    margin-bottom: 38px;
   }
 
   form {
@@ -63,10 +63,6 @@
     );
   }
 
-  .cancel {
-    background-color: #737373;
-  }
-
   @media screen and (max-width: $phone) {
     .ttl {
       font-size: 30px;
@@ -88,12 +84,6 @@
         }
       }
       .buy {
-        width: 360px !important;
-        @media screen and (max-width: 385px) {
-          width: 324px !important;
-        }
-      }
-      .cancel {
         width: 360px !important;
         @media screen and (max-width: 385px) {
           width: 324px !important;
