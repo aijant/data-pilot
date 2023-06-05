@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import logo from '../assets/images/logo.svg'
+import logoP from '../assets/images/data-pilot.svg'
 import menu from '../assets/images/menu.svg'
 import close from '../assets/images/close.svg'
 import './nav.scss'
@@ -38,7 +39,7 @@ export const Nav = () => {
       {toggle && (
         <ul className='nav-menu'>
           <img className='nav-menu-close' src={close} alt='' onClick={() => setToggle(false)} />
-          <img src={logo} alt='' />
+         
           {links.map((link) => (
             <li
               key={link.id}

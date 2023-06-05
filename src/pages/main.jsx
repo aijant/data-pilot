@@ -6,7 +6,7 @@ function Main() {
     <div className="main" id='main'>
       <div className="top-module">
         <h1 className="ttl">Модуль<br /> наложения<br/> подписи</h1>
-        <button>купить</button>
+        <button> <a href="#section_5">купить</a></button>
       </div>
       <div className="macbook">
         <img src={MacBook} />

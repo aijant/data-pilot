@@ -17,11 +17,7 @@
     }
 
     button {
-      font-family: "Montserrat";
       width: 100%;
-      font-weight: 700;
-      font-size: 20px;
-      color: #fff;
       padding: 16px 0;
       outline: none;
       border: none;
@@ -32,6 +28,14 @@
         #7c0deb 99.16%
       );
       border-radius: 100px;
+
+      a {
+        font-family: "Montserrat";
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        color: #fff;
+      }
     }
   }
 
