@@ -9,8 +9,8 @@ function Footer() {
             <div>
                 <p>
                     Контакты для сайта:<br />
-                    Telephone: +7(499) 673-499-5<br />
-                    Email: info@data-pilot.ru <br/>
+                     +7(499) 673-499-5<br />
+                     info@data-pilot.ru <br/>
                 </p>
             </div>
         </div>
